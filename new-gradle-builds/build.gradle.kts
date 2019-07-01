@@ -21,6 +21,5 @@ tasks.create<Zip>("zip") {
     group = "Archive"
 
     from("src")
-
-//    fun archiveFileName() = "basic-demo-1.0.zip"
+//    archiveFileName.set("basic-demo-1.0.zip")
 }
