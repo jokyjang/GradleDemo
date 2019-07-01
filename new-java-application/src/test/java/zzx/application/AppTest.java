@@ -4,11 +4,13 @@
 package zzx.application;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import zzx.library.Library;
+
+import static org.junit.Assert.assertNotNull;
 
 public class AppTest {
     @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+        Library classUnderTest = new Library();
+        assertNotNull("app should have a greeting", classUnderTest.getGreetings());
     }
 }

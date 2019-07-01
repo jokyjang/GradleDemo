@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class GreeterApp {
     public static void main(String[] args) throws IOException {
-        String asciiArt = FigletFont.convertOneLine("Hello, " + args[0]);
+        String asciiArt = FigletFont.convertOneLine("Hello, Gradle");
         System.out.println(asciiArt);
     }
 }

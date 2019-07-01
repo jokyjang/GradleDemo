@@ -3,12 +3,10 @@
  */
 package zzx.application;
 
-public class App {
-    public String getGreeting() {
-        return "Hello world.";
-    }
+import zzx.library.Library;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println(new Library().getGreetings());
     }
 }
