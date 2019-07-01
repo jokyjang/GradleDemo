@@ -3,10 +3,6 @@ plugins {
     application
 }
 
-repositories {
-    jcenter()
-}
-
 dependencies {
     implementation("com.github.lalyos:jfiglet:0.0.8")
 }

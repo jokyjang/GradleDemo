@@ -14,12 +14,6 @@ plugins {
     application
 }
 
-repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
-}
-
 dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:27.1-jre")
