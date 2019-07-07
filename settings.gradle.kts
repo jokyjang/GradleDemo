@@ -1,5 +1,5 @@
 rootProject.name = "GradleDemo"
-include("new-gradle-builds")
-include("new-java-library")
-include("new-java-application")
-include("consuming-jvm-libraries")
+include("gradle-builds")
+include("java-library")
+include("java-application")
+include("java-library-consumer")
