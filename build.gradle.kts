@@ -1,3 +1,7 @@
+plugins {
+    id("com.gradle.build-scan").version("2.3")
+}
+
 subprojects {
     repositories {
         jcenter()
